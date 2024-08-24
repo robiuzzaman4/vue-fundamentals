@@ -1,6 +1,6 @@
 <script setup>
 import { ref } from "vue";
-import SectionTitle from "./SectionTitle.vue";
+import SectionHero from "./SectionHero.vue";
 
 const isVueAwesome = ref(true);
 
@@ -11,9 +11,12 @@ const handleToggle = () => {
 
 <template>
   <div class="w-full grid gap-6">
-    <SectionTitle title="Conditional Rendering" />
+    <SectionHero
+      title="1. Conditional Rendering"
+      github_url="https://github.com/robiuzzaman4/vue-fundamentals/blob/main/src/components/ConditionalRendering.vue"
+    />
     <div
-      class="w-full max-w-96 bg-white border border-zinc-200 rounded-lg p-6 grid gap-6"
+      class="w-full bg-white border border-zinc-200 rounded-lg p-6 grid gap-6"
     >
       <button
         @click="handleToggle"

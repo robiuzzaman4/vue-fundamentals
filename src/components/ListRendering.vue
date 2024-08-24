@@ -1,6 +1,6 @@
 <script setup>
 import { ref } from "vue";
-import SectionTitle from "./SectionTitle.vue";
+import SectionHero from "./SectionHero.vue";
 
 const items = ref([
   { framework: "Next.js" },
@@ -11,9 +11,12 @@ const items = ref([
 
 <template>
   <div class="w-full grid gap-6">
-    <SectionTitle title="List Rendering" />
+    <SectionHero
+      title="3. List Rendering"
+      github_url="https://github.com/robiuzzaman4/vue-fundamentals/blob/main/src/components/ListRendering.vue"
+    />
     <div
-      class="w-full max-w-96 bg-white border border-zinc-200 rounded-lg p-6 flex flex-col gap-6"
+      class="w-full bg-white border border-zinc-200 rounded-lg p-6 flex flex-col gap-6"
     >
       <h3 class="text-sm font-medium">Frameworks:</h3>
       <!-- render list items -->
