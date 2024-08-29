@@ -5,6 +5,7 @@ import ListRendering from "./components/ListRendering.vue";
 import Ref from "./components/Ref.vue";
 import ComputedProperties from "./components/ComputedProperties.vue";
 import VFor from "./components/VFor.vue";
+import VModel from "./components/VModel.vue";
 </script>
 
 <template>
@@ -15,5 +16,6 @@ import VFor from "./components/VFor.vue";
     <Reactive />
     <ComputedProperties />
     <VFor />
+    <VModel />
   </div>
 </template>
