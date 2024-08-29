@@ -2,6 +2,7 @@
 import ConditionalRendering from "./components/ConditionalRendering.vue";
 import ComputedProperties from "./components/ComputedProperties.vue";
 import ListRendering from "./components/ListRendering.vue";
+import Ref from "./components/Ref.vue";
 </script>
 
 <template>
@@ -9,5 +10,6 @@ import ListRendering from "./components/ListRendering.vue";
     <ConditionalRendering />
     <ComputedProperties />
     <ListRendering />
+    <Ref />
   </div>
 </template>
