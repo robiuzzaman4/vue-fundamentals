@@ -6,6 +6,7 @@ import Ref from "./components/Ref.vue";
 import ComputedProperties from "./components/ComputedProperties.vue";
 import VFor from "./components/VFor.vue";
 import VModel from "./components/VModel.vue";
+import Props from "./components/Props.vue";
 </script>
 
 <template>
@@ -17,5 +18,6 @@ import VModel from "./components/VModel.vue";
     <ComputedProperties />
     <VFor />
     <VModel />
+    <Props title="This title is passing form parent component" />
   </div>
 </template>

@@ -24,16 +24,16 @@ const handleRemove3rdItem = () => {
     >
       <p class="text-lg font-medium">Fruits: {{ fruits }}</p>
 
-      <div class="flex items-center gap-4">
+      <div class="flex flex-col sm:flex-row items-center gap-4">
         <button
           @click="handleAddNewFruit"
-          class="h-9 px-3 py-1.5 rounded-lg bg-emerald-600 text-white text-sm font-medium w-fit"
+          class="w-full h-9 px-3 py-1.5 rounded-lg bg-emerald-600 text-white text-sm font-medium sm:w-fit"
         >
           Add 'Avocado'
         </button>
         <button
           @click="handleRemove3rdItem"
-          class="h-9 px-3 py-1.5 rounded-lg bg-rose-600 text-white text-sm font-medium w-fit"
+          class="w-full h-9 px-3 py-1.5 rounded-lg bg-rose-600 text-white text-sm font-medium sm:w-fit"
         >
           Remove 3rd Item
         </button>
