@@ -16,13 +16,13 @@ const handleRemove3rdItem = () => {
 <template>
   <div class="w-full grid gap-6">
     <SectionHero
-      title="4. Ref"
+      title="#. Ref"
       github_url="https://github.com/robiuzzaman4/vue-fundamentals/blob/main/src/components/Ref.vue"
     />
     <div
       class="w-full bg-white border border-zinc-200 rounded-lg p-6 flex flex-col gap-6"
     >
-      <p class="text-sm font-medium">Fruits: {{ fruits }}</p>
+      <p class="text-lg font-medium">Fruits: {{ fruits }}</p>
 
       <div class="flex items-center gap-4">
         <button

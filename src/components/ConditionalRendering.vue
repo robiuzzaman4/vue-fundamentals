@@ -12,7 +12,7 @@ const handleToggle = () => {
 <template>
   <div class="w-full grid gap-6">
     <SectionHero
-      title="1. Conditional Rendering"
+      title="#. Conditional Rendering"
       github_url="https://github.com/robiuzzaman4/vue-fundamentals/blob/main/src/components/ConditionalRendering.vue"
     />
     <div
