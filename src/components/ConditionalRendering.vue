@@ -30,7 +30,7 @@ const handleToggle = () => {
       <h3
         v-else
         class="text-3xl font-medium"
-        :class="{ 'text-red-500': !isVueAwesome }"
+        :class="{ 'text-rose-600': !isVueAwesome }"
       >
         Oh no 😪
       </h3>
