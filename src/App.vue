@@ -8,6 +8,7 @@ import VFor from "./components/VFor.vue";
 import VModel from "./components/VModel.vue";
 import Props from "./components/Props.vue";
 import ComponentEvent from "./components/ComponentEvent.vue";
+import Slot from "./components/Slot.vue";
 </script>
 
 <template>
@@ -21,5 +22,13 @@ import ComponentEvent from "./components/ComponentEvent.vue";
     <VModel />
     <Props title="This title is passing form parent component" />
     <ComponentEvent />
+    <Slot>
+      <template v-slot:slot_one>
+        <p class="text-lg font-medium">Slot one content</p>
+      </template>
+      <template #slot_two>
+        <p class="text-lg font-medium">Slot two content</p>
+      </template>
+    </Slot>
   </div>
 </template>
