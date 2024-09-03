@@ -9,6 +9,7 @@ import VModel from "./components/VModel.vue";
 import Props from "./components/Props.vue";
 import ComponentEvent from "./components/ComponentEvent.vue";
 import Slot from "./components/Slot.vue";
+import ProvideAndInject from "./components/ProvideAndInject.vue";
 </script>
 
 <template>
@@ -30,5 +31,6 @@ import Slot from "./components/Slot.vue";
         <p class="text-lg font-medium">Slot two content</p>
       </template>
     </Slot>
+    <ProvideAndInject />
   </div>
 </template>
